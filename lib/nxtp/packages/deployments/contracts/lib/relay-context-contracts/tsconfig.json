@@ -1,0 +1,19 @@
+{
+  "extends": "@tsconfig/recommended/tsconfig.json",
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "typeRoots": ["./node_modules/@types"],
+    "outDir": "dist",
+
+    // generate .d.ts files for package.json types field
+    "declaration": true
+  },
+  "files": ["hardhat.config.ts"],
+  "include": ["deploy", "test", "typechain", "src"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,105 @@
+{
+  "abi": [],
+  "bytecode": {
+    "object": "0x",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "linkReferences": {}
+  },
+  "ast": {
+    "absolutePath": "lib/interfaces/libraries/TokenId.sol",
+    "id": 27019,
+    "exportedSymbols": {
+      "TokenId": [
+        27018
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "46:328:20",
+    "nodes": [
+      {
+        "id": 27013,
+        "nodeType": "PragmaDirective",
+        "src": "46:24:20",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".17"
+        ]
+      },
+      {
+        "id": 27018,
+        "nodeType": "StructDefinition",
+        "src": "324:49:20",
+        "nodes": [],
+        "canonicalName": "TokenId",
+        "members": [
+          {
+            "constant": false,
+            "id": 27015,
+            "mutability": "mutable",
+            "name": "domain",
+            "nameLocation": "350:6:20",
+            "nodeType": "VariableDeclaration",
+            "scope": 27018,
+            "src": "343:13:20",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint32",
+              "typeString": "uint32"
+            },
+            "typeName": {
+              "id": 27014,
+              "name": "uint32",
+              "nodeType": "ElementaryTypeName",
+              "src": "343:6:20",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint32",
+                "typeString": "uint32"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 27017,
+            "mutability": "mutable",
+            "name": "id",
+            "nameLocation": "368:2:20",
+            "nodeType": "VariableDeclaration",
+            "scope": 27018,
+            "src": "360:10:20",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bytes32",
+              "typeString": "bytes32"
+            },
+            "typeName": {
+              "id": 27016,
+              "name": "bytes32",
+              "nodeType": "ElementaryTypeName",
+              "src": "360:7:20",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            },
+            "visibility": "internal"
+          }
+        ],
+        "name": "TokenId",
+        "nameLocation": "331:7:20",
+        "scope": 27019,
+        "visibility": "public"
+      }
+    ],
+    "license": "MIT OR Apache-2.0"
+  },
+  "id": 20
+}
